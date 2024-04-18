@@ -7,7 +7,7 @@ body {
 
 #side-bar {
     grid-row: 1/3;
-    background-color: #363636;
+    background-color: #F1DFDE;
     display: flex;
     flex-direction: column;
 }
@@ -17,11 +17,27 @@ body {
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    padding-left: 10%;
+}
+
+.side-bar-field:nth-child(1) {
+    margin-bottom: 10%;
+    padding-left: 7%;
+}
+
+.side-bar-field:nth-child(1) > p {
+    padding-left: 5%;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.side-bar-field:nth-child(8) {
+    margin-top: 10%;
 }
 
 #header {
     grid-column: 2/5;
-    background-color: #F1DFDE;
+    background-color: #363636;
 }
 
 #content-area {
@@ -48,4 +64,10 @@ body {
 
 .side-card-2 {
     border: 1px solid blue;
+}
+
+p {
+    font-size: 80%;
+    font-weight: bold;
+    padding-left: 10%;
 }
